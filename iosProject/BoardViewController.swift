@@ -1,5 +1,5 @@
 //
-//  ViewController.swift
+//  BoardViewController.swift
 //  iosProject
 //
 //  Created by Shain Lafazan on 6/18/15.
@@ -8,9 +8,11 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+class BoardViewController: UIViewController {
+    
+    @IBOutlet weak var space: UIButton!
 
-    let socket = SocketIOClient(socketURL: "192.168.1.125:8000", options: ["log": true])
+    let socket = SocketIOClient(socketURL: "192.168.1.154:8000", options: ["log": true])
     
     override func viewDidLoad() {
         super.viewDidLoad()
