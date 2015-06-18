@@ -1,0 +1,62 @@
+<html lang='en'>
+<head>
+	<title>Battleship</title>
+	<meta charset='UTF-8'>
+	<meta name='description' content='Shain Lafazan builds apps.'>
+	<meta name="author" content="Shain Lafazan">
+
+<!-- SKELETON CDN -->
+	<link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/skeleton/2.0.4/skeleton.min.css'>
+	<link rel='stylesheet' href='./static/main.css'>
+<!-- JQUERY CDN -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+<!-- ANGULAR -->
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.3.15/angular.min.js"></script>
+    <script src="https://code.angularjs.org/1.3.15/angular-route.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/angular-local-storage/0.2.2/angular-local-storage.min.js"></script>
+
+    <script src='./angular/config.js'></script>
+	<script src='./angular/factories.js'></script>
+	<script src='./angular/controllers.js'></script>
+	<script src='./angular/services.js'></script>
+
+<!-- JQUERY UI -->
+	<!-- <link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.4/themes/smoothness/jquery-ui.css"> -->
+	<!-- <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.4/jquery-ui.min.js"></script> -->
+
+<!-- SOCKET.IO -->
+    <script type ="text/javascript" src="/socket.io/socket.io.js"></script>
+
+	<!-- <script type='text/javascript' src='/socket.io/socket.io.js'></script> -->
+	<!-- <script src="https://cdn.socket.io/socket.io-1.3.5.js"></script> -->
+
+<!-- SCRIPTS -->
+	<script type='text/javascript'>
+		$(document).ready( function(){
+			console.log('hello document, jQuery!');
+			var socket = io.connect();
+            	socket.on('connect', function (data) {
+              	console.log('BROWSER::WE ARE USING SOCKETS!');
+            });
+
+
+
+		});
+	</script>
+</head>
+
+<nav>
+	<h1>Battleship</h1>
+
+</nav>
+
+<body ng-app='App'>
+	<div class='container'>
+		
+		
+		<!-- <div ng-view=''></div> -->
+
+	</div>
+</body>
+
+</html>
