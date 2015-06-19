@@ -1,8 +1,24 @@
 
 
 1. Setup Screens and server logic
+	a. users drag boats and drop
+		- Drag function
+		- Boat images backgrounds
+		- "Done" button
+	b. Done sends locations to server. server stores locations
+-- -- -- -- --
+	c. server sends opponent boards to users
+	d. player apps move boats based on server info (and hide them)
+
+
 
 2. Game Board (ios)
+	a. logic to click and drag
+	b. make 4 ships
+		- l = 48*shiplength
+		- w = 48	
+	c. logic to snap in place
+
 
 3. Player notifications
 

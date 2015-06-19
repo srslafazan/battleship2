@@ -33,7 +33,6 @@
 <!-- SCRIPTS -->
 	<script type='text/javascript'>
 		$(document).ready( function(){
-			console.log('hello document, jQuery!');
 			var socket = io.connect();
             	socket.on('connect', function (data) {
               	console.log('BROWSER::WE ARE USING SOCKETS!');
