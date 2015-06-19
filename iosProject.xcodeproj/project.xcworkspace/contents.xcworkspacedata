@@ -2,6 +2,15 @@
 <Workspace
    version = "1.0">
    <FileRef
+      location = "group:../ship4.png">
+   </FileRef>
+   <FileRef
+      location = "group:../ship3.png">
+   </FileRef>
+   <FileRef
+      location = "group:../iosProject/ship1.png">
+   </FileRef>
+   <FileRef
       location = "self:iosProject.xcodeproj">
    </FileRef>
 </Workspace>
