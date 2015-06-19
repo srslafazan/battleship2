@@ -11,7 +11,7 @@ import UIKit
 class BoardViewController: UIViewController {
     
     let socket = SocketIOClient(socketURL: "192.168.1.125:8000", options: ["log": true])
-   
+    // "192.168.1.125:74.61.150.47"
     @IBOutlet var spaces: [customButton]!
     
     override func prefersStatusBarHidden() -> Bool {

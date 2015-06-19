@@ -156,7 +156,7 @@
 							}
 
 							// at end of player's turn set isFirstPlayersTurn properly
-							// isFirstPlayersTurn = isFirstPlayersTurn? false : true;
+							isFirstPlayersTurn = isFirstPlayersTurn? false : true;
 						}
 					});
 					

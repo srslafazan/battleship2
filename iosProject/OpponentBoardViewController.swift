@@ -11,7 +11,7 @@ import UIKit
 class OpponentBoardViewController: UIViewController {
 
     let socket = SocketIOClient(socketURL: "192.168.1.125:8000", options: ["log": true])
-    
+                                            // phone ip : computer ip
     @IBOutlet var gameSpaces: [customButton]!
     
 // logic to disable board
@@ -54,8 +54,20 @@ class OpponentBoardViewController: UIViewController {
             
         }
         
+        socket.on("playerShotShip") { data, ack in
+            
+        }
+        socket.on("thisPlayersShipWasHit") { data, ack in
+            
+        }
         
+        socket.on("playerShotMissed") { data, ack in
+            
+        }
         
+        socket.on("enemyMissedShot") { data, ack in
+        
+        }
     }
     
 //    socket.on("yourTurn") { data, ack in

@@ -3066,12 +3066,6 @@
                                     <action selector="gameSpacePressed:" destination="k9q-mb-h4x" eventType="touchUpInside" id="ksQ-x9-ni4"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="10G-sB-cb3">
-                                <rect key="frame" x="70" y="550" width="40" height="30"/>
-                                <state key="normal" title="Reset">
-                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
-                                </state>
-                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
@@ -3521,17 +3515,17 @@
                         </constraints>
                         <variation key="default">
                             <mask key="constraints">
-                                <exclude reference="n0W-JD-bVr"/>
-                                <exclude reference="iE6-Bg-2f6"/>
-                                <exclude reference="gPZ-LE-VBF"/>
-                                <exclude reference="LZJ-CG-Kkv"/>
                                 <exclude reference="BmF-Fe-ujX"/>
+                                <exclude reference="LZJ-CG-Kkv"/>
+                                <exclude reference="gPZ-LE-VBF"/>
+                                <exclude reference="iE6-Bg-2f6"/>
+                                <exclude reference="n0W-JD-bVr"/>
                                 <exclude reference="Y9w-z3-oRn"/>
                                 <exclude reference="irp-Cs-Laz"/>
                                 <exclude reference="oBw-7p-fm7"/>
                                 <exclude reference="R8t-Sp-CQd"/>
-                                <exclude reference="RGX-Ih-wFt"/>
                                 <exclude reference="LVR-Gr-nWh"/>
+                                <exclude reference="RGX-Ih-wFt"/>
                                 <exclude reference="3GE-3L-RMv"/>
                                 <exclude reference="d3K-Xq-iX3"/>
                                 <exclude reference="lzR-Ax-QWC"/>
@@ -3554,8 +3548,8 @@
                                 <exclude reference="LJv-hi-fnP"/>
                                 <exclude reference="akG-q5-giz"/>
                                 <exclude reference="rJm-ug-m21"/>
-                                <exclude reference="VIo-qD-LUn"/>
                                 <exclude reference="3Px-mO-kve"/>
+                                <exclude reference="VIo-qD-LUn"/>
                                 <exclude reference="8fG-uN-ePb"/>
                                 <exclude reference="50D-sw-sTT"/>
                                 <exclude reference="3Cm-Az-vew"/>
